@@ -1,6 +1,6 @@
 import React from "react"
 import Contacts from "./randomUsers.json"
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import "./user.css"
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // import { faCircle } from "@fortawesome/free-solid-svg-icons"
@@ -24,7 +24,11 @@ function User(props) {
           <Link to="/">
             <h3>&laquo;----</h3>
           </Link>
-          <img src={user.picture.large} alt={user.name.first} className="profile" />
+          <img
+            src={user.picture.large}
+            alt={user.name.first}
+            className="profile"
+          />
         </div>
         <ul>
           <li>
