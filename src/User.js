@@ -24,7 +24,7 @@ function User(props) {
           <Link to="/">
             <h3>&laquo;----</h3>
           </Link>
-          <img src={user.picture.large} alt={user.name.first} />
+          <img src={user.picture.large} alt={user.name.first} className="profile" />
         </div>
         <ul>
           <li>
