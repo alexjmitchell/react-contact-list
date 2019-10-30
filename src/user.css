@@ -1,0 +1,29 @@
+.title-card {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-right: 35px;
+  width: 100px;
+}
+
+.img-block {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  background: #a7d076;
+  padding: 20px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  justify-items: start;
+  line-height: 30px;
+}

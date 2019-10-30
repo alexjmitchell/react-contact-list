@@ -1,0 +1,27 @@
+h2 {
+  background-color: #81bc39;
+  color: white;
+  padding: 12px 10px;
+  box-shadow: 0px 1px 1px darkgreen;
+  grid-column: span 4;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+a {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.names {
+  grid-column: span 4;
+  font-size: 1.1rem;
+}
